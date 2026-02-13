@@ -1,8 +1,10 @@
+
 import { Button } from "@/components/ui/button";
+import ImageTabs from "@/components/ui/ImageTabs";
 import { ArrowRight } from "lucide-react";
 import Link from "next/link";
 
-export default function Home() {
+export default function Home() {  
   return (
     <div className="flex min-h-screen flex-col bg-white">
       <main className="flex-1">
@@ -12,15 +14,17 @@ export default function Home() {
             <p className="text-muted-foreground mb-10 text-xl">Capture, organize, and manage your job search in one place.</p>
 
             <div className="flex flex-col items-center gap-4">
-              <Link href={'/signUp'}>
-              <Button size={"lg"} className="h-12 px-8 text-lg font-medium">
-                Start for free <ArrowRight className="ml-2" />{" "}
-              </Button>
+              <Link href={"/signUp"}>
+                <Button size={"lg"} className="h-12 px-8 text-lg font-medium">
+                  Start for free <ArrowRight className="ml-2" />{" "}
+                </Button>
               </Link>
               <p className="text-sm text-muted-foreground">Free for ever, no credit card required.</p>
             </div>
           </div>
         </section>
+
+          <ImageTabs />
       </main>
     </div>
   );
