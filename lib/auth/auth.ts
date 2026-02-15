@@ -10,7 +10,7 @@ import { MongoClient } from "mongodb";
     database : mongodbAdapter(db,{
         client
     }),
-    emailAndPassword: {
+    emailAndPassword: { 
         enabled: true,
     }
   })

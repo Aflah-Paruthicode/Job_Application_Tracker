@@ -20,8 +20,8 @@ import { Button } from "./button";
 
               <div className="relative mx-auto max-w-5xl overflow-hidden rounded-lg border border-gray-200 shadow-xl">
                 { activeTab === 'organize' && (<Image src="/hero-Pictures/hero1.png" alt="Organize Applications" width={1200} height={800} />)}
-                { activeTab === 'hired' && (<Image src="/hero-Pictures/hero2.png" alt="Organize Applications" width={1200} height={800} />)}
-                { activeTab === 'boards' && (<Image src="/hero-Pictures/hero3.png" alt="Organize Applications" width={1200} height={800} />)}
+                { activeTab === 'hired' && (<Image src="/hero-Pictures/hero2.png" alt="Hired" width={1200} height={800} />)}
+                { activeTab === 'boards' && (<Image src="/hero-Pictures/hero3.png" alt="Boards" width={1200} height={800} />)}
               </div>   
             </div>
           </div>
